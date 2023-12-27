@@ -1,8 +1,6 @@
-extern crate crypto;
-
 mod discoverer;
 mod crypt;
 
 fn main() {
-    println!("Hello, world!");
+    let key = b"chave_de_16_byte";
 }
